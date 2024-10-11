@@ -1,0 +1,418 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cápsula da Nossa Amizade</title>
+    <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0; /* Remover o preenchimento padrão */
+    }
+    
+    body {
+        font-family: 'Tahoma', sans-serif;
+        background-image: url('back.jpeg'); /* Coloque o nome da sua imagem aqui */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        text-align: center;
+    }
+        .memory-container {
+            margin: 20px auto;
+            animation: fadeIn 0.5s ease-in-out;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #f0a;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            max-width: 600px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .memory-container img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .memory-container h2 {
+            margin-bottom: 10px;
+        }
+	.image-gallery img {
+   	 max-width: 300px;
+   	 margin: 10px;
+   	 border-radius: 8px;
+	}
+	.image-gallery p {
+    	font-size: 1.2em; /* Tamanho da fonte */
+        font-family: 'Roboto', sans-serif;
+        color: white; /* Cor do texto */
+    	margin-top: 5px; /* Margem acima do texto */
+    	margin-bottom: 15px; /* Margem abaixo do texto */
+    	background-color: transparent; /* Cor de fundo */
+    	border: none; /* Borda */
+    	padding: 0; /* Preenchimento interno */
+    	text-align: center; /* Alinhamento central */
+}
+        .memory-container p {
+            color: #555;
+        }
+        .memory-container, .playlist, .more-memories  {
+            margin: 0;
+            padding: 20px; /* Ajuste o preenchimento se necessário */
+        }
+        h1, h2 {
+            margin: 0;
+            font-family: 'Tahoma', sans-serif; /* Adicionando Tahoma */
+            color: #D8BFD8;
+        }               
+        .song-embed {
+            margin: 10px;
+            display: inline-block;
+            width: 300px;
+        }
+        .song-embed:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+        button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <h1>Seu Best Também Sabe Programar :P</h1>
+    
+    <!-- Playlist da amizade -->
+    <div class="playlist">
+        <h2>Playlist Que Lembra Nós</h2>
+        <div class="song-embed">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7oWbeO9v3Cfs900q7JhLAs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="song-embed">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6uFwhB7gVs7ExCAfJD5BWg?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="song-embed">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/415dK4glwDO7fXxYg3np8B?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6dOtVTDdiauQNBQEDOtlAB?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5bFd8Uo2SDsQw6mtRSta1r?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/7zwn1eykZtZ5LODrf7c0tS?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4S1VYqwfkLit9mKVY3MXoo?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0UV5zxRMz6AO4ZwUOZNIKI?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4qG7hWhljsqqENL5PaLA2z?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3CRDbSIZ4r5MsZ0YwxuEkn?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1mSxbLW7fKABfeY4lGpg0E?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3SdTKo2uVsxFblQjpScoHy?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4d0DpU7Odiv0ztvX2GxJlk?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+	<div class="song-embed">
+	    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6g4RVB6qiuySTw9FCV1HEM?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    	</div>
+
+    <!-- Memória de 2010 -->
+    <div class="image-gallery">
+        <h2>Ainda crianças</h2>
+     <div>
+        <img src="crianças/brava.jpg" alt="Você super brava comigo porque eu estava ganhando na dama">
+	<p>Você super brava comigo porque eu estava ganhando na dama</p>
+     </div>
+     <div>	
+        <img src="crianças/foto1.jpeg" alt="EU odiei esse guacamole sla oq era aquilo">
+	<p>EU odiei esse guacamole sla oq era aquilo</p>
+     </div>
+     <div>
+	<img src="crianças/foto2.jpeg" alt="Artistas Demaisssssss">
+	<p>Artistas Demaisssssss</p>
+     </div>
+     <div>
+	<img src="crianças/foto4.jpeg" alt="Gente q pose era essa?">
+	<p>Gente q pose era essa?</p>
+     </div>
+     <div>
+	<img src="crianças/foto5.jpeg" alt="É na sola da bota">
+	<p>É na sola da bota</p>
+     </div>
+     <div>
+	<img src="crianças/foto6.jpeg" alt="Achei perdido">
+	<p>Achei perdido</p>
+     </div>
+     <div>
+	<img src="crianças/foto7.jpeg" alt="Com certeza estávamos pensando sobre aquele ano ser o ultimo no 08">
+	<p>Com certeza estávamos pensando sobre aquele ano ser o ultimo no 08</p>
+     </div>
+     <div>
+	<img src="crianças/foto8.jpeg" alt="Quem chamou essa menina do seu lado? NINGUEM">
+	<p>Quem chamou essa menina do seu lado? NINGUEM</p>
+     </div>
+     <div>
+	<img src="crianças/foto9.jpeg" alt="Separados por times mas nunca separados (?)">
+	<p>Separados por times mas nunca separados (?)</p>
+     </div>
+     <div>
+	<img src="crianças/foto10.jpeg" alt="Primeira vez num parque e so lembro até hoje do celular da Raissa voando">
+	<p>Primeira vez num parque e so lembro até hoje do celular da Raissa voando</p>
+     </div>
+     <div>
+	<img src="crianças/foto11.jpeg" alt="Nossa ultima foto naquela escola">
+	<p>Nossa ultima foto naquela escola</p>
+     </div>
+     <div>
+	<img src="crianças/foto3.jpeg" alt="Não abra perto de ninguem. Segredo de Estado.">
+	<p>Não abra perto de ninguem. Segredo de Estado.</p>
+     </div>
+    
+
+	<div class="more-memories">
+    <h2>~Salto Temporal~</h2>
+    <!-- Adicione suas imagens -->
+    <div>
+        <img src="jovens/photo9.jpeg" alt="Descrição da imagem 1">
+        <p>Primeira foto do nosso comeback</p>
+    </div>
+    <div>
+        <img src="jovens/photo28.jpeg" alt="Descrição da imagem 2">
+        <p>Nossa melhor foto juntinhos</p>
+    </div>
+    <div>
+        <img src="jovens/photo8.jpeg" alt="Descrição da imagem 2">
+        <p>Nem lembrava dessa foto mas amei esse dia</p>
+    </div>
+    <div>
+        <img src="jovens/photo24.jpeg" alt="Descrição da imagem 2">
+        <p>Tudo perfeito nessa foto</p>
+    </div>
+    <div>
+        <img src="jovens/photo18.jpeg" alt="Descrição da imagem 2">
+        <p>O dia que planejamos parar de falar com o Geovanne de vez KKKKKK</p>
+    </div>
+    <div>
+        <img src="jovens/photo17.jpeg" alt="Descrição da imagem 2">
+        <p>AMO ESSA SEQUENCIA DE FOTOS</p>
+    </div>
+    <div>
+        <img src="jovens/photo19.jpeg" alt="Descrição da imagem 2">
+        <p>QUE FOTO</p>
+        </div>
+
+    <div>
+        <img src="jovens/photo20.jpeg" alt="Descrição da imagem 2">
+        <p>Nós sorrindo *crying*</p>
+        </div>
+
+    <div>
+        <img src="jovens/photo22.jpeg" alt="Descrição da imagem 2">
+        <p>OLHA AS POSES</p>
+        </div>
+    <div>
+        <img src="jovens/photo7.jpeg" alt="Descrição da imagem 2">
+        <p>Ter escolhido Mad Hatter como musica foi...</p>
+    </div>
+    <div>
+        <img src="jovens/photo12.jpeg" alt="Descrição da imagem 2">
+        <p>Us no seu niver 2 anos atrás</p>
+        </div>
+    <div>
+        <img src="jovens/photo13.jpeg" alt="Descrição da imagem 2">
+        <p>a gnt hrs depois com medo daquele doido pulando na rua sacando uma faca</p>
+        </div>
+    <div>
+        <img src="jovens/photo14.jpeg" alt="Descrição da imagem 2">
+        <p>olha que foto fofinha ;-;</p>
+        </div>
+    <div>
+        <img src="jovens/photo15.jpeg" alt="Descrição da imagem 2">
+        <p>13(não é de Taylor Swift</p>
+        </div>
+    <div>
+        <img src="jovens/photo23.jpeg" alt="Descrição da imagem 2">
+        <p>You're the king and baby I'm the queen of. disaster. disaster.</p>
+        </div>
+    <div>
+        <img src="jovens/photo10.jpeg" alt="Descrição da imagem 2">
+        <p>A gente falando as maiores atrocidades atrás de uma bíblia</p>
+        </div>
+    <div>
+        <img src="jovens/photo25.jpeg" alt="Descrição da imagem 2">
+        <p><3</p>
+        </div>
+    <div>
+        <img src="jovens/photo26.jpeg" alt="Descrição da imagem 2">
+        <p>Sempre lindos</p>
+        </div>
+    <div>
+        <img src="jovens/photo27.jpeg" alt="Descrição da imagem 2">
+        <p>Meu primeiro ano novo fora de casa não podia ter sido melhor</p>
+        </div>
+    <div>
+        <img src="jovens/photo34.jpeg" alt="Descrição da imagem 2">
+        <p>tabacuda</p>
+        </div>
+    <div>
+        <img src="jovens/photo35.jpeg" alt="Descrição da imagem 2">
+        <p>FOFOOOOOOSSSSSS</p>
+        </div>
+    <div>
+        <img src="jovens/photo36.jpeg" alt="Descrição da imagem 2">
+        <p>servindo depois de fazermos nosso ultimo vestibular</p>
+        </div>
+    <div>
+        <img src="jovens/photo37.jpeg" alt="Descrição da imagem 2">
+        <p>aaaaaaaaa te amo</p>
+        </div>
+    <div>
+        <img src="jovens/photo40.jpeg" alt="Descrição da imagem 2">
+        <p>estávamos sempre juntos quando nos formamos, a próxima é na faculdade</p>
+        </div>
+
+    <div class="video-gallery">
+    <h2>trends</h2>
+
+       <div class="video">
+        <video width="560" height="315" controls>
+            <source src="jovens/vid4.mp4" type="video/mp4">
+            Seu navegador não suporta o vídeo.
+        </video>
+        <p>Video Fofinho/1</p>
+    </div>
+
+    <div class="video">
+        <video width="560" height="315" controls>
+            <source src="jovens/vid3.mp4" type="video/mp4">
+            Seu navegador não suporta o vídeo.
+        </video>
+        <p>Video Fofinho/2</p>
+    </div>
+
+    <div class="more-memories">
+    <h2>Agora Jovens Adultos, Mas Ainda Crianças Com As Melhores Companhias</h2>
+    <!-- Adicione suas imagens -->
+    <div>
+        <img src="quar/photo3.jpeg" alt="Descrição da imagem 1">
+        <p>Arrasamos esse dia</p>
+    </div>
+    <div>
+        <img src="quar/photo1.jpeg" alt="Descrição da imagem 1">
+        <p>Fofos</p>
+    </div>
+        <div>
+        <img src="quar/photo2.jpeg" alt="Descrição da imagem 1">
+        <p>Saudades desse dia :(</p>
+    </div>
+        <div>
+        <img src="quar/photo4.jpeg" alt="Descrição da imagem 1">
+        <p>Nossas Barbies</p>
+    </div>
+    <div>
+        <img src="quar/photo5.jpeg" alt="Descrição da imagem 1">
+        <p>Piranhas doutoradas kiss kiss</p>
+    </div>
+    <div>
+        <img src="quar/photo6.jpeg" alt="Descrição da imagem 1">
+        <p>O Chucky e a Chucka</p>
+    </div>
+    <div>
+        <img src="quar/photo11.jpeg" alt="Descrição da imagem 1">
+        <p>Sdds desses roles aleatorios no meio da semana pra algum lugar flopado</p>
+    </div>
+    <div>
+        <img src="quar/photo16.jpeg" alt="Descrição da imagem 1">
+        <p>ownt :(</p>
+    </div>
+    <div>
+        <img src="quar/photo21.jpeg" alt="Descrição da imagem 1">
+        <p>A foto mais aleatoria que mais amo</p>
+    </div>
+    <div>
+        <img src="quar/photo29.jpeg" alt="Descrição da imagem 1">
+        <p>Gnt a própria Bella</p>
+    </div>
+    <div>
+        <img src="quar/photo30.jpeg" alt="Descrição da imagem 1">
+        <p>Piranha formada não quer guerra com ninguem</p>
+    </div>
+    <div>
+        <img src="quar/photo31.jpeg" alt="Descrição da imagem 1">
+        <p>Foi tão bom se sentir criança uma ultima vez nesse dia</p>
+    </div>
+    <div>
+        <img src="quar/photo32.jpeg" alt="Descrição da imagem 1">
+        <p>Finalmente nosso primeiro role todo mundo junto</p>
+    
+        <img src="quar/photo33.jpeg" alt="Descrição da imagem 1">
+    </div>
+    <div>
+        <img src="quar/photo38.jpeg" alt="Descrição da imagem 1">
+        <p>Amei nosso girls night com a Vic querendo chamar macho pra minha casa</p>
+    </div>
+    <div>
+        <img src="quar/photo39.jpeg" alt="Descrição da imagem 1">
+        <p>A FOTO</p>
+    </div>
+    <div class="video">
+        <video width="560" height="315" controls>
+            <source src="quar/vid1.mp4" type="video/mp4">
+            Seu navegador não suporta o vídeo.
+        </video>
+        <p>*linguinha pra fora*</p>
+    </div>
+    <div class="video">
+        <video width="560" height="315" controls>
+            <source src="quar/vid2.mp4" type="video/mp4">
+            Seu navegador não suporta o vídeo.
+        </video>
+        <p>Precisa de legenda?</p>
+    </div>
+    <div class="more-memories">
+    <h2>Agora a melhor "foto"</h2>
+    <!-- Adicione suas imagens -->
+    <div>
+        <img src="quar/icon.png" alt="Descrição da imagem 1">
+        <p>Sempre vou dar risada disso!</p>
+    </div>
+    
+    <h1>Fiz essa cápsula do tempo para sempre quando quiser lembrar da nossa amizade você poder dar uma olhada e lembrar de nós. Também pra saber que está cercada de pessoas que te amam. Eu te amo! <3</h1>
+    <br>
+    <h1>Ass: Calculadora Ambulante</h1>
+    
+
+
+</div>
+
+
+
+    
+</body>
+</html>
